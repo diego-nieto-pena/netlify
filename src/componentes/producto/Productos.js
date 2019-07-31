@@ -22,7 +22,7 @@ class Productos extends Component {
         };
 
         //const url = 'http://localhost:5000/productos';
-        const url = 'http://demo0597538.mockable.io/productos';
+        const url = 'https://demo0597538.mockable.io/productos';
 
         return axios.get(url, {headers})
             //.then(response => console.log(response.data.productos))
